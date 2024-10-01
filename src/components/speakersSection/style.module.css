@@ -1,0 +1,54 @@
+.speakers_section {
+  background: #ebeef6;
+  padding: 63px 0 60px 0;
+}
+.ss_devialet {
+}
+.ss_devialet small {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+.ss_devialet h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+.ss_devialet h3 span {
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 42px;
+}
+.ssd_price {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+.ssd_price small {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #666666;
+}
+.ssd_price span {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #009900;
+}
+.ssd_image img {
+  object-fit: contain;
+  width: 100%;
+}
+.ssb_title {
+  margin-bottom: 42px;
+}
+@media (max-width: 1024px) and (min-width: 780px) {
+  .speakerSelling_col {
+    width: 280px !important;
+  }
+}

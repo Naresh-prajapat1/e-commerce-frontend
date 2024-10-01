@@ -1,0 +1,24 @@
+.offer_count {
+  background: #634c9f;
+
+  padding: 10px 0;
+}
+.offer_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ob_title {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14.52px;
+  letter-spacing: -0.3199999928474426px;
+}
+@media (max-width: 768px) {
+  .offer_count {
+    display: none;
+  }
+}

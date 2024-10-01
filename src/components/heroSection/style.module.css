@@ -1,0 +1,134 @@
+.hs_sonoImg {
+  background-image: url("../../assets/images/head_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  background-position: center;
+  border-radius: 20px;
+}
+.hss_content {
+  padding: 56px 0 0 96px;
+  color: #fff;
+}
+.hss_content h2 {
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 42px;
+  margin-bottom: 17px;
+}
+.hss_content p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.4px;
+  margin-bottom: 57px;
+}
+.hs_fanImg {
+  background-image: url("../../assets/images/head_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 450px;
+  background-position: center;
+  position: relative;
+  border-radius: 20px;
+}
+.hsf_content {
+  color: #fff;
+  padding: 50px 0 0 0;
+}
+.hsf_content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+}
+.hsf_content p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22.1px;
+  text-align: center;
+}
+.hsf_btn {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+.hs_miniImg {
+  background-image: url("../../assets/images/head_3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 230px;
+  background-position: center;
+  position: relative;
+  border-radius: 20px;
+}
+.hsm_content {
+  padding: 30px 0 0 30px;
+}
+.hsm_content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.hsm_content p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22.1px;
+  color: #666666;
+  margin-bottom: 30px;
+}
+.hs_airImg {
+  background-image: url("../../assets/images/head_4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 230px;
+  background-position: center;
+  position: relative;
+  border-radius: 20px;
+}
+.hsa_content {
+  padding: 30px 0 0 30px;
+}
+.hsa_content h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #fff;
+}
+.hsa_content p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  color: #666666;
+}
+.hsa_content span {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #b9f34f;
+}
+.hs_anatico {
+  background-image: url("../../assets/images/head_5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 230px;
+  background-position: center;
+  position: relative;
+  border-radius: 20px;
+}
+.hsana_content {
+  color: #fff;
+  padding: 30px 0 0 30px;
+}
+.hsana_content p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+}
+.hsana_content h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 50px;
+}

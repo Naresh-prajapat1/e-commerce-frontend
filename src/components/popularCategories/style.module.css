@@ -1,0 +1,29 @@
+.popular_cate a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+}
+.popular_cate a .pc_img {
+  background: #e3e3ec;
+  width: 110px;
+
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 55px;
+}
+
+.popular_cate a .pc_title {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 22.1px;
+  text-align: center;
+  color: #000;
+}
+/* .pc_wrapper {
+  display: flex;
+  align-items: center;
+} */

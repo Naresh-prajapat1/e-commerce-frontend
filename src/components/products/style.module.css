@@ -1,0 +1,128 @@
+.products {
+  /* max-width: 300px; */
+  /* width: 100%; */
+  border: 1px solid #99999999;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.pw_installment {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.pw_installment .pwi_insta {
+  flex: 1;
+}
+.pw_installment .pwi_insta span {
+  border: 1px solid #f1352b;
+  padding: 5px 10px;
+  border-radius: 30px;
+  color: #f1352b;
+  font-size: 12px;
+}
+/* .pw_installment span b {
+} */
+.pw_installment .pwi_insta1 {
+  width: 40px;
+  height: 40px;
+  background: #4b3ec4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.pwi_insta11 {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #99999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+.pw_image a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pw_image > a > img {
+  /* width: 150px; */
+  width: 100%;
+  object-fit: contain;
+}
+.pw_content {
+  margin-top: 20px;
+}
+.pw_bgcolor {
+  background: linear-gradient(
+    0deg,
+    #ffffff 0%,
+    #c3c3c3 50%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+.pw_content .pwc_off {
+}
+.pw_content .pwc_off span.po1 {
+  background: #f1352b;
+  border-radius: 30px;
+  padding: 5px 9px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  color: #fff;
+}
+.pw_content .pwc_off span.po2 {
+  background: #009900;
+  border-radius: 30px;
+  padding: 5px 9px;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  color: #fff;
+  margin-left: 5px;
+}
+.pwc_proName {
+  margin-top: 15px;
+}
+.pwc_proName a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #000;
+}
+.pwc_rating {
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+.pwc_price {
+  margin-bottom: 20px;
+}
+.pwc_price span:first-child {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #f1352b;
+}
+.pwc_price del {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: #999999;
+  margin-left: 8px;
+}
+.pwc_range {
+  width: 100%;
+  margin-bottom: 15px;
+
+  height: 5px;
+  background: #e5e8f3;
+  border-radius: 30px;
+}
+.pwc_sold {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20.4px;
+}

@@ -1,0 +1,12 @@
+.galobl_button {
+  border: 1px solid #99999999;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 30px;
+  transition: 0.4s;
+  &:hover {
+    border: 1px solid #4b3ec4;
+    background-color: #4b3ec4;
+    color: #fff;
+  }
+}
