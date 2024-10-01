@@ -1,0 +1,78 @@
+.tswp_searching {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.tswps_items {
+  background: #ebeef6;
+  padding: 8px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  display: inline-block;
+}
+/**/
+.tsw_banner {
+  margin-top: 60px;
+  background: #32333b;
+  padding: 0px 25px;
+  border-radius: 20px;
+}
+.tswb_pre_order {
+  padding: 30px 0;
+}
+.tswb_pre_order h4 {
+  color: #65fdf4;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.tswb_pre_order p {
+  color: #999999;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  margin-bottom: 5px;
+}
+.tswb_pre_order h5 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  color: #fff;
+}
+.tswb_image {
+  background-image: url("../../assets/images/bgBefore.png");
+  background-position-y: center;
+  background-size: auto;
+  position: relative;
+}
+.tswb_image img {
+  width: 100%;
+  object-fit: contain;
+  position: relative;
+  top: 50px;
+}
+
+.tswb_watch {
+  padding: 30px 0;
+}
+.tswb_watch h4 {
+  color: #65fdf4;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.tswb_watch h3 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #fff;
+}
+.tswb_btn {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,23 @@
+.search {
+  display: flex;
+  width: 320px;
+  position: relative;
+}
+.search input {
+  width: 100%;
+  padding: 13px 12px;
+  border-radius: 30px;
+  border: 1px solid #bcbcbc;
+}
+.s_serachicon {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 45px;
+  height: 45px;
+  border-radius: 30px;
+  background: #4b3ec4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

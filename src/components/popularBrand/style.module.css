@@ -1,0 +1,72 @@
+.pb_hendset {
+  background-image: url("../../assets/images/pup_1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 34px 30px;
+  border-radius: 20px;
+}
+
+.pb_hendset small {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16.5px;
+  letter-spacing: 2px;
+  margin-bottom: 11px;
+  color: #666666;
+}
+.pb_hendset h6 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 92px;
+}
+.pb_hendset1 {
+  background-image: url("../../assets/images/pup_2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 34px 30px;
+}
+.pb_hendset1 h6 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 24px;
+}
+.pb_hendset1 b {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #fff;
+  margin-bottom: 68px;
+  display: inline-block;
+}
+.pb_hendset2 {
+  background-image: url("../../assets/images/pup_3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding: 34px 30px;
+  color: #fff;
+}
+.pb_hendset2 h5 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+}
+.pb_hendset2 h6 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 28.8px;
+  margin-bottom: 55px;
+}
+.pb_hendset2 small {
+  color: #999999;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: left;
+}

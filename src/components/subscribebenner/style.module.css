@@ -1,0 +1,59 @@
+.subscribe_benner {
+  background-image: url("../../assets/images/bredcumber.png");
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0;
+}
+.sb_getOff {
+  padding-top: 10px;
+}
+.sbg_title {
+  color: #fff;
+}
+.sbg_title span:first-child {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.sbg_title span:last-child {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.sbg_title span small:last-child {
+  color: #41c2f2;
+}
+
+.sb_email {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.sbe_input {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 5px 5px 5px 20px;
+}
+.sbe_input input {
+  border: none;
+  padding-right: 90px;
+}
+.sbe_input input:focus {
+  outline: none;
+}
+@media (max-width: 768px) {
+  .sb_email {
+    display: flex;
+    align-items: center;
+    /* justify-content: end; */
+    justify-content: center;
+  }
+  .sb_getOff {
+    text-align: center;
+  }
+  .sbe_input input {
+    padding-right: 0px;
+  }
+}

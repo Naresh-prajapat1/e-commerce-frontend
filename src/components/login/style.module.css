@@ -1,0 +1,100 @@
+.login {
+  /* background: #ebeef6; */
+}
+.loginForm {
+  background: #ebeef6;
+  border-radius: 10px;
+  padding: 45px 45px;
+}
+.l_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.l_image {
+  object-fit: contain;
+}
+.l_form {
+  padding: 0 100px 0 0;
+}
+.lf_heading {
+}
+.lf_heading h3 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33.6px;
+  color: #4b3ec4;
+}
+.lf_heading p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #666666;
+}
+.l_form form label {
+  display: block;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 11px;
+}
+.l_form form input {
+  width: 100%;
+  border: 1px solid #cccccc;
+  background: #ffffff;
+  padding: 10px 0 10px 10px;
+  border-radius: 6px;
+}
+.lf_forgetPassword {
+  margin-top: 10px;
+  color: #999999;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  border-bottom: 1px solid #999999;
+  width: fit-content;
+  margin-bottom: 40px;
+}
+.l_form form button {
+  border: none;
+  background-color: #4b3ec4;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+.l_newuser {
+  padding-top: 15px;
+}
+.l_newuser span:first-child {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #666666;
+}
+.l_newuser span a:last-child {
+  color: #4b3ec4;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.password {
+  position: relative;
+}
+.lf_eye {
+  position: absolute;
+
+  right: 15px;
+  top: 10px;
+}
+@media (max-width: 425px) {
+  .l_form {
+    padding: 0;
+  }
+  .l_image img {
+    object-fit: contain;
+    width: 100%;
+  }
+}

@@ -1,0 +1,28 @@
+.timing_sell {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 14px;
+  color: #fff;
+}
+.timing_sell .ts_title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  letter-spacing: -0.3199999928474426px;
+}
+.ts_time .tst_num {
+  margin-right: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.78px;
+  letter-spacing: -0.3199999928474426px;
+}
+.ts_time .tst_day {
+  margin-right: 10px;
+
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 13.31px;
+  letter-spacing: -0.3199999928474426px;
+}

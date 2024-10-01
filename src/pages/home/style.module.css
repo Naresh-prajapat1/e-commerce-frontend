@@ -1,0 +1,89 @@
+.h_popular_categorie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.hp_popularCate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 50px;
+}
+.h_p_heroSection {
+}
+/* best deel*/
+
+.best_weekly_deel {
+  background: #ebeef6;
+  border-radius: 20px;
+  padding: 34px 30px;
+}
+.bwd_title {
+  display: flex;
+  align-items: center;
+  gap: 44px;
+  margin-bottom: 50px;
+}
+.expirestime {
+  background: #f1352b;
+  padding: 10px 35px 10px 52px;
+  color: #fff;
+  border-radius: 30px;
+}
+.expirestime span:first-child {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23.8px;
+}
+.bwd_product {
+  display: flex;
+  gap: 20px;
+}
+/**/
+.h_popular_brand {
+  background: #ebeef6;
+  padding: 30px 30px;
+  border-radius: 20px;
+}
+/*best seller*/
+.best_seller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.bs_button_filter {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.bs_product_sell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+  flex-wrap: wrap;
+}
+@media (min-width: 770px) and (max-width: 1024px) {
+  .popular_col2 {
+    max-width: 600px !important;
+    width: 100% !important;
+  }
+  .popular_col1 {
+    width: 300px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .popular_col {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .expirestime {
+    display: none;
+  }
+}

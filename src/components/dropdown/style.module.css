@@ -1,0 +1,25 @@
+.dropdown {
+  position: relative;
+  width: 130px;
+  text-align: center;
+  cursor: pointer;
+}
+.d_title span {
+  margin-right: 5px;
+}
+ul.d_dropmenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  cursor: pointer;
+  top: 32px;
+  left: 10px;
+  text-align: start;
+  border: 1px solid #9d9d9d;
+  padding: 10px 30px;
+  line-height: 40px;
+}
+ul.d_dropmenu li {
+  /* border-bottom: 1px solid #5a5a5a; */
+}

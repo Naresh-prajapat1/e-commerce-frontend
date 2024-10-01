@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Wireless Headphones",
+    "priceOrignal": 99.99,
+    "priceOld": 110,
+
+    "stock": 20,
+    "rating": 4.5,
+    "Img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJFMq8G617uYyfVdOplBU_LQX_jjrhtv-v_dXrAmj1UojR0TtV9DlROmr7ZZ7ZJiUa_bE&usqp=CAU"
+  },
+  {
+    "id": 2,
+    "title": "Wireless Headphones",
+    "priceOrignal": 99.99,
+    "priceOld": 110,
+
+    "stock": 20,
+    "rating": 4.5,
+    "Img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJFMq8G617uYyfVdOplBU_LQX_jjrhtv-v_dXrAmj1UojR0TtV9DlROmr7ZZ7ZJiUa_bE&usqp=CAU"
+  },
+  {
+    "id": 3,
+    "title": "Wireless Headphones",
+    "priceOrignal": 99.99,
+    "priceOld": 110,
+
+    "stock": 20,
+    "rating": 4.5,
+    "Img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJFMq8G617uYyfVdOplBU_LQX_jjrhtv-v_dXrAmj1UojR0TtV9DlROmr7ZZ7ZJiUa_bE&usqp=CAU"
+  },
+  {
+    "id": 4,
+    "title": "Wireless Headphones",
+    "priceOrignal": 99.99,
+    "priceOld": 110,
+
+    "stock": 20,
+    "rating": 4.5,
+    "Img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJFMq8G617uYyfVdOplBU_LQX_jjrhtv-v_dXrAmj1UojR0TtV9DlROmr7ZZ7ZJiUa_bE&usqp=CAU"
+  }
+]

@@ -1,0 +1,138 @@
+.sitebar {
+  position: relative;
+}
+.sitebar button {
+  border: none;
+  background-color: transparent;
+}
+.sitebar span {
+  position: absolute;
+  top: -8px;
+  right: -15px;
+  width: 20px;
+  height: 20px;
+  background: #4b3ec4;
+  color: #fff;
+  border-radius: 50px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.site_bar_add {
+  max-width: 500px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #f5f5f5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  background: #ebeef6;
+  padding: 10px 10px;
+}
+.sba_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+.sba_content {
+  overflow-y: scroll;
+  flex: 1;
+}
+.sbaw_title {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  overflow: hidden;
+}
+.sbaw_title .sbawt_count {
+  margin-left: 20px;
+  font-size: 20px;
+  flex: 1;
+}
+
+/* cart style*/
+.cart_item {
+  display: flex;
+  margin-bottom: 10px;
+}
+.ci_image {
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.cart_item .ci_image img {
+  width: 110px;
+  height: 110px;
+  object-fit: contain;
+}
+.ci_content {
+  flex: 1;
+  margin-left: 24px;
+}
+.ci_content h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 154px;
+}
+.ci_content p {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+.cic_quantity {
+  display: flex;
+}
+.cic_quantity input {
+  width: 50px;
+  border: none;
+  text-align: center;
+}
+.cic_quantity input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+.cic_quantity button {
+  background-color: blue;
+  border: none;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 0px 20px 20px 0;
+  font-weight: 700;
+}
+.cicq_btn {
+  border-radius: 20px 0px 0px 20px !important;
+}
+.cart_item .ci_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sba_footer {
+  overflow: hidden;
+  padding: 20px 0;
+}
+.sba_footer a.sbaaf_btn1 {
+  width: 100%;
+  display: block;
+  background-color: #cfd9f7;
+  border: none;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.sba_footer a:last-child {
+  margin-bottom: 0;
+}
